@@ -94,7 +94,7 @@ function Edit(idOfBase) {
 
   const edited = todo.map(item => {
     if(item.id == idOfBase){
-      item.title = prompt('New title')
+      item.title = prompt('New title', item.title)
       return item
     }else{
       return item

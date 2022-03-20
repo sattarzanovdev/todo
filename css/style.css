@@ -9,6 +9,7 @@ body{
   height: 100vh;
   padding-top: 25px;
   margin-left: 25px;
+  overflow-y: scroll;
 }
 
 .card{
